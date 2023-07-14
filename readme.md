@@ -5,9 +5,9 @@ The purpose of this project is to create a machine learning model that can ident
 Data will be scraped from knitting dictionary sites that are public facing and do not disallow individual graphics scraping. Data will be in two forms: image and a stitch name.
 
 Images ought to meet the following criteria:
-    - Close up image
-    - Only a single stitch is present in the image
-    - Front view of the stitch (back view optional)
+    * Close up image
+    * Only a single stitch is present in the image
+    * Front view of the stitch (back view optional)
 
 Stitch names will be saved in a CSV that corresponds to the image saved in the relevant folder (not uploaded)
 
