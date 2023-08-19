@@ -7,7 +7,6 @@ from urllib.parse import urljoin
 import re
 import time
 
-#url = 'http://www.knittingonthenet.com/stitches/basket.htm'
 base = 'http://www.knittingonthenet.com/stitches.htm'
 imgbase = 'http://www.knittingonthenet.com'
 
@@ -16,9 +15,6 @@ result = requests.get(base)
 doc = BeautifulSoup(result.text, 'html.parser')
 
 links = doc.find_all('a', href=re.compile('^/stitches/[^/]+$'))
-
-#wanna find the links that are inside a table
-#print(links)
 
 # #csv info
 script_dir = os.path.dirname(os.path.abspath(__file__))
