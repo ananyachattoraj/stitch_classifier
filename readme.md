@@ -18,4 +18,4 @@ Stitch names will be made consistent by stripping extraneous words like the webs
 Images will be resized for consistency of modeling.
 
 ## Modeling
-Transfer learning will be used to fine-tune a pre-existing model. Details to come!
+Initial model attempt used a basic CNN structure. Despite data augmentation, validation accuracy was very low and modeling will be revisited with more data.
